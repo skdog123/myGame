@@ -73,7 +73,7 @@ function draw() {
     }
     
     
-    if(keyDown("space")&& player.y >=230) {
+    if(touches.length>0||keyDown("space")&& player.y >=230) {
         player.velocityY = -13;
     }
     
